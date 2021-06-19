@@ -25,6 +25,10 @@
 		C41DF5D5267BEB4E00169E36 /* WeatherDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41DF5D3267BEB4E00169E36 /* WeatherDataView.swift */; };
 		C41DF5D7267BEE0800169E36 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41DF5D6267BEE0800169E36 /* Forecast.swift */; };
 		C41DF5D8267BEE0800169E36 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41DF5D6267BEE0800169E36 /* Forecast.swift */; };
+		C4B8667A267E8E1600923148 /* RainFall.sks in Resources */ = {isa = PBXBuildFile; fileRef = C4B86678267E8E1600923148 /* RainFall.sks */; };
+		C4B8667B267E8E1600923148 /* RainFall.sks in Resources */ = {isa = PBXBuildFile; fileRef = C4B86678267E8E1600923148 /* RainFall.sks */; };
+		C4B86680267E933900923148 /* RainFallLanding.sks in Resources */ = {isa = PBXBuildFile; fileRef = C4B8667E267E933900923148 /* RainFallLanding.sks */; };
+		C4B86681267E933900923148 /* RainFallLanding.sks in Resources */ = {isa = PBXBuildFile; fileRef = C4B8667E267E933900923148 /* RainFallLanding.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,8 @@
 		C41DF5D0267A981200169E36 /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
 		C41DF5D3267BEB4E00169E36 /* WeatherDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataView.swift; sourceTree = "<group>"; };
 		C41DF5D6267BEE0800169E36 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		C4B86678267E8E1600923148 /* RainFall.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RainFall.sks; sourceTree = "<group>"; };
+		C4B8667E267E933900923148 /* RainFallLanding.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RainFallLanding.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,7 @@
 		C41DF591267A927700169E36 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C4B86677267E8DCD00923148 /* SpriteFiles */,
 				C41DF5C9267A936300169E36 /* Model */,
 				C41DF5C8267A935900169E36 /* View */,
 				C41DF592267A927700169E36 /* WeatherAppScrollingApp.swift */,
@@ -159,6 +166,15 @@
 				C41DF5D6267BEE0800169E36 /* Forecast.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C4B86677267E8DCD00923148 /* SpriteFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C4B86678267E8E1600923148 /* RainFall.sks */,
+				C4B8667E267E933900923148 /* RainFallLanding.sks */,
+			);
+			path = SpriteFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +302,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4B8667A267E8E1600923148 /* RainFall.sks in Resources */,
 				C41DF5B8267A927900169E36 /* Assets.xcassets in Resources */,
+				C4B86680267E933900923148 /* RainFallLanding.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +312,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4B8667B267E8E1600923148 /* RainFall.sks in Resources */,
 				C41DF5B9267A927900169E36 /* Assets.xcassets in Resources */,
+				C4B86681267E933900923148 /* RainFallLanding.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
